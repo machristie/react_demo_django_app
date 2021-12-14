@@ -39,3 +39,8 @@ def home(request):
     return render(request, "react_demo_django_app/home.html", {
         'project_name': "React Demo Django App"
     })
+
+@login_required
+def demo(request):
+
+    return render(request, "react_demo_django_app/demo.html")

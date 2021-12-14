@@ -21,7 +21,7 @@ const publicUrlOrPath = getPublicUrlOrPath(
   process.env.PUBLIC_URL
 );
 
-const buildPath = process.env.BUILD_PATH || 'build';
+const buildPath = process.env.BUILD_PATH || '../react_demo_django_app/static/react_demo_django_app/dist';
 
 const moduleFileExtensions = [
   'web.mjs',
