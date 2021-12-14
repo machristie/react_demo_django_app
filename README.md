@@ -13,3 +13,11 @@
    ```
 
 3. Start (or restart) the Django Portal server.
+
+4. Build the React frontend code.
+
+   ```
+   cd frontend
+   yarn
+   yarn build
+   ```
