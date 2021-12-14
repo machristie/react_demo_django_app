@@ -1,0 +1,2 @@
+recursive-include react_demo_django_app/static *
+recursive-include react_demo_django_app/templates *
