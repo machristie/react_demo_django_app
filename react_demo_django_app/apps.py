@@ -33,7 +33,7 @@ class ReactDemoDjangoAppConfig(AppConfig):
 
     # Set fa_icon_class to a FontAwesome CSS class for an icon to associate with
     # the custom app. Find an icon class at https://fontawesome.com/icons?d=gallery&p=2&s=regular,solid&m=free
-    fa_icon_class = "fa-circle"
+    fa_icon_class = "fa-atom"
 
     # Second level navigation. Defines sub-navigation that displays on the left
     # hand side navigation bar in the Django Portal. This is optional but
